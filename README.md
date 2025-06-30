@@ -15,7 +15,6 @@ Labs for the Spring Framework Essentials (formerly Core Spring) and Spring Boot 
     * You may also look at the `TODO`s embedded in the source files.
     * It is strongly recommended to use an IDE plugin that will allow you to navigate through all the `TODO`s across the source files in each project.
 5. Finish strong with the [Spring Boot](https://spring.academy/courses/spring-boot) course. (approx. 11 hours)
-    * The lab notes for these have _not_ beed added (yet). Please refer to Spring Academy.
 
 ### Prerequisites
 
