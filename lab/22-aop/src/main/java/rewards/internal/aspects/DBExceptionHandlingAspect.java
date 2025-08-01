@@ -24,7 +24,7 @@ public class DBExceptionHandlingAspect {
 	//  - Configure this advice method to enable logging of
 	//	  exceptions thrown by Repository class methods.
 	//	- Select the advice type that seems most appropriate.
-	@AfterThrowing(value = "execution(public * rewards.internal.*.*Repository.*(..))", throwing="e")
+	@AfterThrowing(value = "execution(* rewards.internal.*.*Repository.*(..))", throwing="e")
 	public void implExceptionHandling(RewardDataAccessException e) {
 		// Log a failure warning
 		logger.warn(EMAIL_FAILURE_MSG + e + "\n");
