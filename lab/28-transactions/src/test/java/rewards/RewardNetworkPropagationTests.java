@@ -1,8 +1,10 @@
 package rewards;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.TransactionStatus;
@@ -28,7 +30,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 // TODO-07: Re-run this test, it should now pass.
 // - Think about why this test passes now.
-
+@ExtendWith(SpringExtension.class)
 @SpringJUnitConfig(classes = {SystemTestConfig.class})
 public class RewardNetworkPropagationTests {
 

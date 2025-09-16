@@ -5,9 +5,11 @@ import ch.qos.logback.classic.Logger;
 import common.money.MonetaryAmount;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
 
 import javax.sql.DataSource;
@@ -26,6 +28,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
  * - Notice that we have enabled DEBUG logging in setup() below.
  * - Check the logging output. Is only ONE connection being used?
  */
+@ExtendWith(SpringExtension.class)
 @SpringJUnitConfig(classes = {SystemTestConfig.class})
 class RewardNetworkTests {
 

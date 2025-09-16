@@ -4,9 +4,12 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.sql.DataSource;
 
@@ -30,8 +33,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * TODO-10: Add @Transactional on the class and re-run the test. It should pass.
  * Do you know why?
  */
+@ExtendWith(SpringExtension.class)
 @SpringJUnitConfig(classes = {SystemTestConfig.class})
 @TestMethodOrder(MethodOrderer.MethodName.class)
+@Transactional
 public class RewardNetworkSideEffectTests {
 
 	private static final String SAVINGS_SQL = "select SAVINGS from T_ACCOUNT_BENEFICIARY where NAME = ?";
