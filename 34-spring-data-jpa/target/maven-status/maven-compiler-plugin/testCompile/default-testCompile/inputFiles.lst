@@ -1,0 +1,8 @@
+/Users/ruel.sintinta/Documents/core-spring-labfiles/lab/34-spring-data-jpa/src/test/java/rewards/RewardNetworkTests.java
+/Users/ruel.sintinta/Documents/core-spring-labfiles/lab/34-spring-data-jpa/src/test/java/rewards/internal/RewardNetworkImplTests.java
+/Users/ruel.sintinta/Documents/core-spring-labfiles/lab/34-spring-data-jpa/src/test/java/rewards/internal/StubAccountRepository.java
+/Users/ruel.sintinta/Documents/core-spring-labfiles/lab/34-spring-data-jpa/src/test/java/rewards/internal/StubRestaurantRepository.java
+/Users/ruel.sintinta/Documents/core-spring-labfiles/lab/34-spring-data-jpa/src/test/java/rewards/internal/StubRewardRepository.java
+/Users/ruel.sintinta/Documents/core-spring-labfiles/lab/34-spring-data-jpa/src/test/java/rewards/internal/account/AccountTests.java
+/Users/ruel.sintinta/Documents/core-spring-labfiles/lab/34-spring-data-jpa/src/test/java/rewards/internal/restaurant/RestaurantTests.java
+/Users/ruel.sintinta/Documents/core-spring-labfiles/lab/34-spring-data-jpa/src/test/java/rewards/internal/reward/JdbcRewardRepositoryTests.java
