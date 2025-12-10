@@ -17,7 +17,7 @@ This repository includes essential Spring components such as controllers, servic
 ---
 
 ## 📁 Project Structure
-
+```text
 SpringBoot/
 ├── 00-rewards-common/
 ├── 01-rewards-db/
