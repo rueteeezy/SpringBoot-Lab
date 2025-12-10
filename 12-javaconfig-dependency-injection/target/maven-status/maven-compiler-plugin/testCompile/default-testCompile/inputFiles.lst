@@ -1,0 +1,7 @@
+/Users/ruel.sintinta/Documents/core-spring-labfiles/lab/12-javaconfig-dependency-injection/src/test/java/config/RewardsConfigTests.java
+/Users/ruel.sintinta/Documents/core-spring-labfiles/lab/12-javaconfig-dependency-injection/src/test/java/rewards/RewardNetworkTests.java
+/Users/ruel.sintinta/Documents/core-spring-labfiles/lab/12-javaconfig-dependency-injection/src/test/java/rewards/TestInfrastructureConfig.java
+/Users/ruel.sintinta/Documents/core-spring-labfiles/lab/12-javaconfig-dependency-injection/src/test/java/rewards/internal/RewardNetworkImplTests.java
+/Users/ruel.sintinta/Documents/core-spring-labfiles/lab/12-javaconfig-dependency-injection/src/test/java/rewards/internal/StubAccountRepository.java
+/Users/ruel.sintinta/Documents/core-spring-labfiles/lab/12-javaconfig-dependency-injection/src/test/java/rewards/internal/StubRestaurantRepository.java
+/Users/ruel.sintinta/Documents/core-spring-labfiles/lab/12-javaconfig-dependency-injection/src/test/java/rewards/internal/StubRewardRepository.java

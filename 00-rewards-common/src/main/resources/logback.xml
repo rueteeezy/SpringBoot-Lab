@@ -1,0 +1,39 @@
+<!DOCTYPE configuration>
+
+<configuration>
+
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<!-- encoders are assigned the type ch.qos.logback.classic.encoder.PatternLayoutEncoder 
+			by default -->
+		<encoder>
+			<pattern>%-5p: %logger{40} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- Application logger -->
+	<logger name="rewards" level="info" />
+
+	<!--  Spring loggers -->
+	<logger name="org.springframework" level="info" />
+	
+	<logger name="org.springframework.beans" level="warn" />
+	
+	<logger name="org.springframework.jdbc" level="warn" />
+
+	<logger name="org.springframework.transaction" level="warn" />
+
+	<logger name="org.springframework.orm" level="warn" />
+
+	<logger name="org.springframework.web" level="warn" />
+
+	<logger name="org.springframework.http" level="warn" />
+	
+	<!-- 3rd party Loggers -->
+	<logger name="org.hibernate" level="warn" />
+
+	<logger name="org.jboss" level="warn" />
+
+	<root level="debug">
+		<appender-ref ref="STDOUT" />
+	</root>
+</configuration>
